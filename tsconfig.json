@@ -15,7 +15,14 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@mesh-icons/*": ["./src/mesh-ui/assets/icons/*"],
+      "@mesh-atoms/*": ["./src/mesh-ui/atoms/*"],
+      "@mesh-components/*": ["./src/mesh-ui/components/*"],
+      "@mesh-config/*": ["./src/mesh-ui/config/*"],
+      "@mesh-helpers/*": ["./src/mesh-ui/helpers/*"],
+      "@mesh-molecules/*": ["./src/mesh-ui/molecules/*"],
+      "@mesh-typings/*": ["./src/mesh-ui/typings/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

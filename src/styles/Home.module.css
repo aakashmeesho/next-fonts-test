@@ -1,3 +1,12 @@
+/* styles/component.module.css */
+/* :root{
+  --Mier-bold: 'Mier Bold';
+} */
+
+.text {
+  font-family: var('--Mier-bold');
+}
+
 .main {
   display: flex;
   flex-direction: column;
